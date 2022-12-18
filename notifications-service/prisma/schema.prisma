@@ -13,6 +13,7 @@ model Notification {
   content     String
   category    String
   readAt      DateTime? // Can be Null
+  canceledAt  DateTime?
   createdAt   DateTime @default(now()) // If user don't input, default now
 
   @@index([recipientId]) // Index for queries
