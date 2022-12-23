@@ -13,10 +13,13 @@
 
 <h2 align="center"> 📄 Description </h2>
 
-This service was born out of the fact that many applications need notifications functionality nowadays, so it is extremely feasible to separate this functionality into a single microservice that can be implemented by anyone who wants to.
+<p>
+&nbsp This service was born out of the fact that many applications need notifications functionality nowadays, so it is extremely feasible to separate this functionality into a single microservice that can be implemented by anyone who wants to.
+</p>
 
-This microservice specializes in notifications, where other applications can communicate with it to send notifications. This service will only be responsible for notifications.
-
+<p>
+&nbsp This microservice specializes in notifications, where other applications can communicate with it to send notifications. This service will only be responsible for notifications.
+</p>
 
 <h2 align="center"> 🖥️ Run Application </h2>
 
@@ -37,6 +40,7 @@ $ npm install
 ```
 $ npm run start
 ```
+This starts in http://localhost:3000
 
 <h2 align="center"> 🧪 Run Tests </h2>
 
